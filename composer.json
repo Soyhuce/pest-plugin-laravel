@@ -1,31 +1,34 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "soyhuce/pest-plugin-laravel",
+    "description": "Custom extensions for Laravel integration into Pest",
     "keywords": [
         "php",
-        "framework",
         "pest",
         "unit",
         "test",
         "testing",
-        "plugin"
+        "plugin",
+        "laravel"
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.4",
+        "illuminate/auth": "^12.0",
         "pestphp/pest": "^3.7.5",
-        "pestphp/pest-plugin": "^3.0.0"
+        "pestphp/pest-plugin": "^3.0.0",
+        "soyhuce/laravel-testing": "^2.13"
+    },
+    "require-dev": {
+        "pestphp/pest-dev-tools": "^3.4.0",
+        "spatie/laravel-data": "^4.15"
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
+            "Soyhuce\\PestPluginLaravel\\": "src/"
         },
         "files": [
             "src/Autoload.php"
         ]
-    },
-    "require-dev": {
-        "pestphp/pest-dev-tools": "^3.4.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
