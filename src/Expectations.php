@@ -16,7 +16,6 @@ use Spatie\LaravelData\Data;
 use Spatie\LaravelData\DataCollection;
 
 /** @var Expectation<mixed> $this */
-
 expect()->extend('toBeModel', function (Model $expected): Expectation {
     LaravelAssert::assertIsModel($expected, $this->value);
 
