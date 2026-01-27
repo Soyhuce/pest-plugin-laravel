@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Instanceof between null and Illuminate\\Support\\LazyCollection will always evaluate to false\.$#'
+			identifier: instanceof.alwaysFalse
+			count: 2
+			path: src/Expectations.php
