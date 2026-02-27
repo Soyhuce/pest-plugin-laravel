@@ -14,12 +14,12 @@
     "require": {
         "php": "^8.4",
         "illuminate/auth": "^12.0",
-        "pestphp/pest": "^3.7.5",
-        "pestphp/pest-plugin": "^3.0.0",
+        "pestphp/pest": "^3.7.5|^4.0",
+        "pestphp/pest-plugin": "^3.0.0|^4.0",
         "soyhuce/laravel-testing": "^2.13"
     },
     "require-dev": {
-        "pestphp/pest-dev-tools": "^3.4.0",
+        "pestphp/pest-dev-tools": "^3.4.0|^4.0",
         "spatie/laravel-data": "^4.15"
     },
     "autoload": {
